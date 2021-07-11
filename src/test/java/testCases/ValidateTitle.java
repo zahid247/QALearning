@@ -30,6 +30,7 @@ public class ValidateTitle extends Base {
 		driver = initializeDriver();
 
 		driver.get(prop.getProperty("url"));
+		log.info("We are at ValidateTitle and accessed the website");
 	}
 
 	@AfterTest

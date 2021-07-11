@@ -28,6 +28,8 @@ public class ValidateNavBar extends Base {
 		driver = initializeDriver();
 
 		driver.get(prop.getProperty("url"));
+		
+		log.info("We have accessed the website...");
 	}
 
 	@AfterTest
