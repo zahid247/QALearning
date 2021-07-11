@@ -21,5 +21,6 @@
 		<classes>
 			<class name="testCases.ValLoginFunctions" />
 		</classes>
+		<!-- Testing if git recognizes the change -->
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
