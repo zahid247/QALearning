@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests"> <!-- by adding "parallel" here we are asking the tests run parallely. if 
+		we remove that portion, the test will be run sequentially -->
+	<!-- parallel="tests" -->
+	<listeners>
+		<listener class-name="testCases.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="ValidateNavBar">
+		<classes>
+			<class name="testCases.ValidateNavBar" />
+		</classes>
+	</test>
+	<test name="ValidateTitle">
+		<classes>
+			<class name="testCases.ValidateTitle" />
+		</classes>
+	</test>
+	<test name="ValidateLoginFunctions">
+		<classes>
+			<class name="testCases.ValLoginFunctions" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-05T20:13:02 PDT" name="Suite" finished-at="2021-07-05T20:13:22 PDT" duration-ms="20325">
+    <groups>
+    </groups>
+    <test started-at="2021-07-05T20:13:02 PDT" name="ValidateNavBar" finished-at="2021-07-05T20:13:15 PDT" duration-ms="13599">
+      <class name="testCases.ValidateNavBar">
+        <test-method is-config="true" signature="init()[pri:0, instance:testCases.ValidateNavBar@736d6a5c]" started-at="2021-07-05T20:13:02 PDT" name="init" finished-at="2021-07-05T20:13:12 PDT" duration-ms="10296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="checkNavBar()[pri:0, instance:testCases.ValidateNavBar@736d6a5c]" started-at="2021-07-05T20:13:12 PDT" name="checkNavBar" finished-at="2021-07-05T20:13:12 PDT" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNavBar -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testCases.ValidateNavBar@736d6a5c]" started-at="2021-07-05T20:13:12 PDT" name="exit" finished-at="2021-07-05T20:13:15 PDT" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testCases.ValidateNavBar -->
+    </test> <!-- ValidateNavBar -->
+    <test started-at="2021-07-05T20:13:02 PDT" name="ValidateTitle" finished-at="2021-07-05T20:13:15 PDT" duration-ms="13376">
+      <class name="testCases.ValidateTitle">
+        <test-method is-config="true" signature="init()[pri:0, instance:testCases.ValidateTitle@784b990c]" started-at="2021-07-05T20:13:02 PDT" name="init" finished-at="2021-07-05T20:13:12 PDT" duration-ms="10010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="checkSubTitle()[pri:0, instance:testCases.ValidateTitle@784b990c]" started-at="2021-07-05T20:13:12 PDT" name="checkSubTitle" finished-at="2021-07-05T20:13:12 PDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSubTitle -->
+        <test-method signature="checkText()[pri:0, instance:testCases.ValidateTitle@784b990c]" started-at="2021-07-05T20:13:12 PDT" name="checkText" finished-at="2021-07-05T20:13:12 PDT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkText -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testCases.ValidateTitle@784b990c]" started-at="2021-07-05T20:13:12 PDT" name="exit" finished-at="2021-07-05T20:13:15 PDT" duration-ms="3100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testCases.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+    <test started-at="2021-07-05T20:13:02 PDT" name="ValidateLoginFunctions" finished-at="2021-07-05T20:13:22 PDT" duration-ms="20325">
+      <class name="testCases.ValLoginFunctions">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:testCases.ValLoginFunctions@2a7686a7]" started-at="2021-07-05T20:13:02 PDT" name="initDriver" finished-at="2021-07-05T20:13:05 PDT" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="init()[pri:0, instance:testCases.ValLoginFunctions@2a7686a7]" started-at="2021-07-05T20:13:05 PDT" name="init" finished-at="2021-07-05T20:13:12 PDT" duration-ms="7208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="DemoTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ValLoginFunctions@2a7686a7]" started-at="2021-07-05T20:13:12 PDT" name="DemoTest" data-provider="getData" finished-at="2021-07-05T20:13:16 PDT" duration-ms="3868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[azer@azer.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[unathorized]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTest -->
+        <test-method is-config="true" signature="init()[pri:0, instance:testCases.ValLoginFunctions@2a7686a7]" started-at="2021-07-05T20:13:16 PDT" name="init" finished-at="2021-07-05T20:13:17 PDT" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="DemoTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ValLoginFunctions@2a7686a7]" started-at="2021-07-05T20:13:17 PDT" name="DemoTest" data-provider="getData" finished-at="2021-07-05T20:13:19 PDT" duration-ms="1657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[authorized]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTest -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testCases.ValLoginFunctions@2a7686a7]" started-at="2021-07-05T20:13:19 PDT" name="exit" finished-at="2021-07-05T20:13:22 PDT" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testCases.ValLoginFunctions -->
+    </test> <!-- ValidateLoginFunctions -->
+  </suite> <!-- Suite -->
+</testng-results>
